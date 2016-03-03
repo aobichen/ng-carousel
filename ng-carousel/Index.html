@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-1.7.1.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/carousel.js"></script>
+    <link href="styles/ng-carousel.css" rel="stylesheet" />
+    <script type="text/javascript">
+        app.controller("myCtrl", function ($scope) {
+            $scope.img = ["pictures/1.jpg", "pictures/2.jpg", "pictures/3.jpg", "pictures/4.jpg"
+                          , "pictures/5.jpg", "pictures/6.jpg", "pictures/7.jpg"];
+        });
+    </script>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="myCtrl">
+        <table>
+            <tr>
+                <td style="vertical-align: middle;">
+                    <ng-carousel src-init="img" motion="continuous" speed="10">         
+                    </ng-carousel>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ng-carousel src-init="img" motion="makereturn" speed="10">
+         
+                    </ng-carousel>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

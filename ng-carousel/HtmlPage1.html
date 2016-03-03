@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style type="text/css">
+        .cus
+        {
+            position:relative;  
+            height:100px;  
+            width:300px;  
+            border:solid 1px black;  
+           
+            overflow:hidden;
+        }
+        .cus-sub
+        {
+            position:absolute;  
+            top:0px;  
+            left:0px;  
+            height:100px;  
+            width:auto;  
+            background-color:red  ;
+         
+            
+        }
+            .cus img
+            {
+                width:100px;
+              height:100px;
+            }
+    </style>
+    <script type="text/javascript">
+        var f = 0;
+       
+        var aa = setInterval(function move () {
+            f--;
+            document.getElementById("sub").style.left = f + "px";
+            console.log(f);
+        }, 50);
+    </script>
+</head>
+<body>
+    <div class="cus" >
+       <div id="sub" class="cus-sub">
+        <img  src="pictures/0.JPG" />
+        <img src="pictures/1.jpg" />
+         <img src="pictures/2.jpg" />
+        <!-- <img src="pictures/3.jpg" />
+         <img src="pictures/4.jpg" />-->
+         </div>
+    </div>
+</body>
+</html>

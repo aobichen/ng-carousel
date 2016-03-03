@@ -1,0 +1,10 @@
+D:\Aobi\aobi-ng\ng-carousel\ng-carousel\bin\ng-carousel.dll
+D:\Aobi\aobi-ng\ng-carousel\ng-carousel\bin\ng-carousel.pdb
+D:\Aobi\aobi-ng\ng-carousel\ng-carousel\obj\Debug\ng-carousel.dll
+D:\Aobi\aobi-ng\ng-carousel\ng-carousel\obj\Debug\ng-carousel.pdb
+D:\Aobi\aobi-ng\ng-carousel\ng-carousel\obj\Debug\ng-carousel.csprojResolveAssemblyReference.cache
+D:\ng-carousel\ng-carousel\bin\ng-carousel.dll
+D:\ng-carousel\ng-carousel\bin\ng-carousel.pdb
+D:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.dll
+D:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.pdb
+D:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.csprojResolveAssemblyReference.cache
