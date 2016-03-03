@@ -10,13 +10,7 @@ app.directive("ngCarousel", function () {
             motion: '@',
             srcInit: '='
         },
-        template: '<div class="ng-carousel" style="z-index:1;"><div id="carousel-sub" style="position:absolute; width:auto;">'
-                    + '<img class="carousel-img" ng-repeat="s in srcInit" src="{{s}}" /><div>'
-                    + '<table style="z-index:10;display:none;position:fixed;height:auto;" id="carousel-target"><tr>'
-                    + '<td id="toLeft" style="text-align:left;cursor:pointer;width:10%;">◀</td><td style="width:80%"></td>'
-                    + '<td id="toRight" style="text-align:right;cursor:pointer;width:10%;">▶</td>'
-                    + '</tr></table>'
-                    + '</div>',
+        template: '<div class="ng-carousel" style="z-index:1;"><div id="carousel-sub" style="position:absolute; width:auto;"><img class="carousel-img" ng-repeat="s in srcInit" src="{{s}}" /><div><table style="z-index:10;display:none;position:fixed;height:auto;" id="carousel-target"><tr><td id="toLeft" style="text-align:left;cursor:pointer;width:10%;">◀</td><td style="width:80%"></td><td id="toRight" style="text-align:right;cursor:pointer;width:10%;">▶</td></tr></table></div>',
         link: function (scope, element, attrs) {
 
             var carousel = $(element);

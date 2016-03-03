@@ -8,3 +8,9 @@ D:\ng-carousel\ng-carousel\bin\ng-carousel.pdb
 D:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.dll
 D:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.pdb
 D:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.csprojResolveAssemblyReference.cache
+C:\ng-carousel\ng-carousel\bin\ng-carousel.dll.config
+C:\ng-carousel\ng-carousel\bin\ng-carousel.dll
+C:\ng-carousel\ng-carousel\bin\ng-carousel.pdb
+C:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.csprojResolveAssemblyReference.cache
+C:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.dll
+C:\ng-carousel\ng-carousel\obj\Debug\ng-carousel.pdb
